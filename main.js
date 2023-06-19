@@ -1,30 +1,30 @@
 const armas = [
-  {
-    name: 'Espada',
-    price: 100,
-    status: 5,
-  },
-  {
-    name: 'Lanza',
-    price: 80,
-    status: 3,
-  },
-  {
-    name: 'Palanca',
-    price: 60,
-    status: 7,
-  },
-  {
-    name: 'Arco',
-    price: 120,
-    status: 8,
-  },
+	{
+		name: 'Espada',
+		price: 100,
+		status: 5,
+	},
+	{
+		name: 'Lanza',
+		price: 80,
+		status: 3,
+	},
+	{
+		name: 'Palanca',
+		price: 60,
+		status: 7,
+	},
+	{
+		name: 'Arco',
+		price: 120,
+		status: 8,
+	},
 ];
 
-//let fn = (e) => e.price > 80;
+// let fn = (e) => e.price > 80;
 
-//console.log(armas.every(fn)); //Evalua todos los elementos que cumplan la función. Devuelve true o false
-//console.log(armas.some(fn)); //Que por lo menos uno cumple la condicion
+// console.log(armas.every(fn)); //Evalua todos los elementos que cumplan la función. Devuelve true o false
+// console.log(armas.some(fn)); //Que por lo menos uno cumple la condicion
 armas.reverse(); // Cambia el orden del array. Es mutable.
 console.log(armas);
 
@@ -42,11 +42,15 @@ const sumArm = armas.reduce((acc, curr) => acc + curr.price, 0);
 console.log(sumArm);
 
 const fns = [
-  () => console.log('Soy el primero'),
-  () => console.log('Soy el primero'),
-  () => console.log('Soy el primero'),
+	() => console.log('Soy el primero'),
+	() => console.log('Soy el primero'),
+	() => console.log('Soy el primero'),
 ];
 
-fns.forEach((element) => element());
+fns.forEach(element => element());
 
+const problem = x => (typeof x === 'string' ? 'Error' : x * 50 + 6);
 
+function problem(x) {
+	return typeof x == 'string' ? 'Error' : x * 50 + 6;
+}

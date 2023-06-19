@@ -4,7 +4,7 @@
  */
 console.log("[GUÍA]: Aquí empezamos con los Object literals");
 
-/**Crear Object Literals 
+/** Crear Object Literals 
 *  Son similares a los diccionarios de Python.
 *  Se definen como pares de atributo: valor
 */
@@ -48,13 +48,13 @@ console.log(cursoJavascript);
 
 // Acceder a un atributo de un objeto
 // Dot notation
-let visitas1 = video1.visitas;
-let visitas2 = video2.visitas
+const visitas1 = video1.visitas;
+const visitas2 = video2.visitas
 console.log(`El primer vídeo tiene ${visitas1} y el segundo ${visitas2}`);
 
 // Key notation
-let likes = video1["likes"];
-console.log(`El primer vídeo tiene ${likes} likes y ${video1["dislikes"]} dislikes`);
+const likes = video1.likes;
+console.log(`El primer vídeo tiene ${likes} likes y ${video1.dislikes} dislikes`);
 
 console.log(`El video uno tiene ${cursoJavascript.videos[0].visitas} visitas`);
 

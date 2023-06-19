@@ -4,7 +4,7 @@
  */
 console.log("[GUÍA]: Aquí empezamos con los Switch");
 
-let vehiculo = prompt("Escribe el vehículo que quieras (coche, barco, avión): ");
+const vehiculo = prompt("Escribe el vehículo que quieras (coche, barco, avión): ");
 let msg;
 switch (vehiculo){
     case 'coche':

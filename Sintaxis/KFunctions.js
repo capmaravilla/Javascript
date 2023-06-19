@@ -35,14 +35,14 @@ console.log(`Area de un circulo con radio 2 = ${areaCirculo(2)} m^2`);
 // IIFE: Immediately Invoked Function Expression
 (
     function(){
-        let nombre = 'Dimas';
+        const nombre = 'Dimas';
         console.log("Esto solo se ejecuta una vez")
     }
 
 )();
 // Las variables de una IIFE desaparecen tras su ejecución.
 // Nos deja libres los nombres de las variables.
-//console.log(nombre);
+// console.log(nombre);
 
 
 // Métodos

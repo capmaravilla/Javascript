@@ -7,7 +7,7 @@ console.log("[GUÍA]: Aquí empezamos con el Scope");
 // Scope global
 console.log("[GUÍA]: Global Scope");
 var varVar = 'A';
-let varLet = 'B';
+const varLet = 'B';
 const varConst = 'C';
 console.log(varVar, varLet, varConst);
 
@@ -15,8 +15,8 @@ console.log(varVar, varLet, varConst);
 // Function scope
 console.log("[GUÍA]: Function Scope");
 function alcance() {
-    var varVar = 'D';
-    let varLet = 'E';
+    const varVar = 'D';
+    const varLet = 'E';
     const varConst = 'F';
     console.log(varVar, varLet, varConst);
 }
@@ -29,7 +29,7 @@ console.log(varVar, varLet, varConst);
 console.log("[GUÍA]: Block Scope");
 if (1){
     var varVar = 'G';
-    let varLet = 'H';
+    const varLet = 'H';
     const varConst = 'I';
     console.log(varVar, varLet, varConst);
 }

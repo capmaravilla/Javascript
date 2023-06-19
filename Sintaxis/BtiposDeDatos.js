@@ -58,12 +58,12 @@ const visitas = (100).toString()
 console.log(visitas, typeof visitas)
 
 // String a number
-let valor = '33.44'
-let valorNumerico = Number(valor)
+const valor = '33.44'
+const valorNumerico = Number(valor)
 console.log(valorNumerico, typeof valorNumerico)
 
-let valorEntero = parseInt(valor)
+const valorEntero = parseInt(valor)
 console.log(valorEntero, typeof valorEntero)
 
-let valorDecimal = parseFloat(valor)
+const valorDecimal = parseFloat(valor)
 console.log(valorDecimal, typeof valorDecimal)

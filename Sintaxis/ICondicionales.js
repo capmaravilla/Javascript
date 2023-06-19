@@ -22,7 +22,7 @@ else {
 // Comparación de igualdad
 
 // Comparar valor
-if (10 == 10) {
+if (10 === 10) {
     console.log('Son iguales');
 }else {
     console.log('Son diferentes');
@@ -51,8 +51,8 @@ console.log('Son diferentes');
 }
 
 // Comparación de diferencia
-let a = '10';
-let b = 10;
+const a = '10';
+const b = 10;
 
 if (a !== b){
     console.log('a y b son distintos');
@@ -70,8 +70,8 @@ if (a != b){
 // Si venís de python: and -> &&, or -> ||
 
 // And -> ambas condiciones deben cumplirse
-let nombre = 'Dimas';
-let dni = '2323A';
+const nombre = 'Dimas';
+const dni = '2323A';
 
 if(nombre === 'Dimas' && dni == '2323A'){
     console.log("Puedes votar (con and)");
@@ -79,7 +79,7 @@ if(nombre === 'Dimas' && dni == '2323A'){
     console.log("Los datos no se corresponden");
 }
 
-//Or -> es suficiente con que se cumpla una condición
+// Or -> es suficiente con que se cumpla una condición
 if(nombre === 'Juan' || dni == '2323A'){
     console.log("Puedes votar (con or)");
 }else {
@@ -117,7 +117,7 @@ const listaAcceso = ['Carlos', 'Marta', 'Ana', 'Juan'];
 const listaVIP = ['Dross', 'Auron', 'Jeff Bezzos'];
 
 
-let acceso = ( (fiestero1.edad >= 18 && listaAcceso.indexOf(fiestero1.nombre) !== -1 ) 
+const acceso = ( (fiestero1.edad >= 18 && listaAcceso.indexOf(fiestero1.nombre) !== -1 ) 
 || listaVIP.indexOf(fiestero1.nombre) !== -1 ) ? 
 'Acceso Permitido' : 
 'Acceso Denegado'

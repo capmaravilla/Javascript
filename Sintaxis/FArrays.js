@@ -43,7 +43,7 @@ console.log(`Último elemento del array numerico: ${variable}`);
 
 // Si accedemos a una posición superior a la longitud del array - 1
 // retorna 'undefined'
-let posicion = 120;
+const posicion = 120;
 console.log(`Elemento en la posición ${posicion}: ${arrayStrings[posicion]}`);
 //  IMPORTANTE! No lanza una excepción, el flujo de ejecución contiúa. 
 
@@ -63,7 +63,7 @@ empty[0] = 'Ei'
 console.log(empty, empty[0]);
 
 // Comprobar si un elemento es un array
-let numero = 230;
+const numero = 230;
 let _isArray;
 _isArray = Array.isArray(arrayMixto);
 
@@ -80,7 +80,7 @@ console.log(arrayNumerico);
 arrayNumerico[0] = 'primer elemento';
 console.log(arrayNumerico);
 
-/* AÑADIR ELEMENTOS A UN ARRAY*/
+/* AÑADIR ELEMENTOS A UN ARRAY */
 // Añadir un elemento al final
 arrayStrings.push('cuarto');
 arrayStrings.push('quinto');
@@ -106,7 +106,7 @@ console.log(`El elemento "${deleted}" ha sido eliminado del array: ${arrayString
 // Encontrar el índice de un elemento determinado
 const nums = [0, 1, 2, 3, 4, 5];
 let posicionElemento;
-let valorBuscado = 3;
+const valorBuscado = 3;
 
 console.log(nums);
 // Atención: si el valor no está presente en el array, el método devolverá -1
@@ -163,7 +163,7 @@ function mayorDeEdad(edad) {
     return edad >= 18;
 }
 
-let edad = concatNums.find(mayorDeEdad);
+const edad = concatNums.find(mayorDeEdad);
 console.log(edad);
 
 // Avance: arrow functions

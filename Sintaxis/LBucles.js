@@ -21,13 +21,13 @@ while (i < MAX_ITER) {
 }
 
 // Bucle do while:
-/*let primo = 0
+/* let primo = 0
 let password;
 do {
 password = prompt("Escribe la contraseña: 123");
 }while(password !== '123')
 
-console.log("Contraseña correcta");*/
+console.log("Contraseña correcta"); */
 
 // Iterar Sobre arrays (u otros iterables)
 const productos = [
@@ -45,7 +45,7 @@ for (let i = 0; i < productos.length; ++i) {
 
 // Método 2: 
 console.log("Lista de productos con for each: ");
-for (let producto of productos) {
+for (const producto of productos) {
     console.log(producto);
 }
 
@@ -66,7 +66,7 @@ angulos.forEach(num => console.log(Math.cos(num).toFixed(2)));
 // Otros high order methods: 
 // Método filter: 
 const emails = ['hola@gmail.com', 'adios', 'megaflow@hotmail.es'];
-let emailsValidos = emails.filter(email => email.includes('@'));
+const emailsValidos = emails.filter(email => email.includes('@'));
 console.log(emailsValidos);
 
 // Método MAP: 
@@ -88,7 +88,7 @@ const persona = {
     DNI: 232323
 }
 
-for (let atributo in persona) {
+for (const atributo in persona) {
     console.log(`${atributo}: ${persona[atributo]}`)
 }
 

@@ -19,8 +19,8 @@ console.log("Hola, esto es el inicio del tutorial");
 console.log("[GUÍA]: Aquí empezamos con los tipos de variables");
 
 // Existen tres formas de declarar variables: var, let, const
-var nombre = "Dimas";
-let apellido = "Avila";
+const nombre = "Dimas";
+const apellido = "Avila";
 const dni = "12332199R";
 
 console.log(nombre, apellido, dni);
@@ -28,11 +28,11 @@ console.log(nombre, apellido, dni);
 // Los nombres de las variables pueden incluir: letras, números, _ , $
 // No pueden empezar con números
 const _hol4 = "hola";
-let $money = 1500;
+const $money = 1500;
 console.log(_hol4, $money);
 
 // Puedes declarar una variable sin asignar un valor: (LET, VAR)
-var fruta;
+let fruta;
 let comida;
 fruta = "plátano";
 comida = "paella";

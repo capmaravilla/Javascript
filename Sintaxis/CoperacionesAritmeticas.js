@@ -5,8 +5,8 @@
  */
 
 console.log("[GUÍA]: Aquí empezamos con las Operaciones Aritméticas");
-let num1 = 10;
-let num2 = 5;
+const num1 = 10;
+const num2 = 5;
 let result;
 
 // Operaciones matemáticas básicas

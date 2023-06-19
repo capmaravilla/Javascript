@@ -10,19 +10,18 @@
  */
 
 const juego = [
-  ['🗿', '✂️'],
-  ['✂️', '🗿'],
-  ['📄', '✂️'],
+	['🗿', '✂️'],
+	['✂️', '🗿'],
+	['📄', '✂️'],
 ];
 
-if p1 == '🗿'
+/* if p1 == '🗿'
 if p1 == '✂️'
 if p1 == '📄'
 const tercerPar = juego[2]; // selecciona el tercer par
 const segundoElemento = tercerPar[1]; // selecciona el segundo elemento del tercer par
-console.log(segundoElemento); // imprime 6
+console.log(segundoElemento); // imprime 6 */
 
 for (let i = 0; i < juego.length; i++) {
-  const element = juego[i];
-  
+	const element = juego[i];
 }
