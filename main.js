@@ -42,9 +42,11 @@ const sumArm = armas.reduce((acc, curr) => acc + curr.price, 0);
 console.log(sumArm);
 
 const fns = [
-  ()=>console.log('Soy el primero'),
-  ()=>console.log('Soy el primero'),
-  ()=>console.log('Soy el primero')
+  () => console.log('Soy el primero'),
+  () => console.log('Soy el primero'),
+  () => console.log('Soy el primero'),
 ];
 
-fns.forEach(element => element());
+fns.forEach((element) => element());
+
+
